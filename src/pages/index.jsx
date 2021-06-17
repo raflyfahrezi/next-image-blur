@@ -27,7 +27,7 @@ const Home = () => {
                     <a href='https://nextjs.org'>Next.js</a> Image Blur
                 </h1>
 
-                <div>
+                <div className={styles.content}>
                     <Card headline='720p Image Resolution' image={Image720p} />
                 </div>
             </main>
