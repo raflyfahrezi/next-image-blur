@@ -1,5 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
+
+import Card from '../components/card'
+
+import Image2k from '../assets/image-2k.png'
+import Image4k from '../assets/image-4k.png'
+import Image720p from '../assets/image-720p.png'
+import Image1080p from '../assets/image-1080p.png'
+
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
@@ -18,6 +26,10 @@ const Home = () => {
                 <h1 className={styles.title}>
                     <a href='https://nextjs.org'>Next.js</a> Image Blur
                 </h1>
+
+                <div>
+                    <Card headline='720p Image Resolution' image={Image720p} />
+                </div>
             </main>
 
             <footer className={styles.footer}>
