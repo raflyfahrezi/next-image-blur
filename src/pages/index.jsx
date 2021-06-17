@@ -35,6 +35,12 @@ const Home = () => {
                     />
                     <Card headline='2K Image Resolution' image={Image2k} />
                     <Card headline='4K Image Resolution' image={Image4k} />
+                    <p>
+                        Source code{' '}
+                        <a href='https://github.com/raflyfahrezi/next-image-blur'>
+                            GitHub Link
+                        </a>
+                    </p>
                 </div>
             </main>
 
