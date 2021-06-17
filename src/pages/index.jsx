@@ -29,6 +29,12 @@ const Home = () => {
 
                 <div className={styles.content}>
                     <Card headline='720p Image Resolution' image={Image720p} />
+                    <Card
+                        headline='1080p Image Resolution'
+                        image={Image1080p}
+                    />
+                    <Card headline='2K Image Resolution' image={Image2k} />
+                    <Card headline='4K Image Resolution' image={Image4k} />
                 </div>
             </main>
 
