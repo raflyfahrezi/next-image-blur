@@ -7,7 +7,14 @@ const card = ({ headline, image }) => {
     return (
         <div className={styles.card}>
             <p>{headline}</p>
-            <Image src={image} placeholder='blur' layout='fill' alt='poster' />
+            <div className={styles.cardImage}>
+                <Image
+                    src={image}
+                    placeholder='blur'
+                    layout='fill'
+                    alt='poster'
+                />
+            </div>
         </div>
     )
 }
