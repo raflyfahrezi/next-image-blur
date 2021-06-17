@@ -5,9 +5,9 @@ import styles from '../../styles/Card.module.css'
 
 const card = ({ headline, image }) => {
     return (
-        <div>
+        <div className={styles.card}>
             <p>{headline}</p>
-            <Image src={image} placeholder='blur' alt='poster' />
+            <Image src={image} placeholder='blur' layout='fill' alt='poster' />
         </div>
     )
 }
